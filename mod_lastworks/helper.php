@@ -45,7 +45,7 @@ class modLastWorksHelper
 
         //published dates - @since 2.2.10
         $query .= ' AND DATE(publish_up) <= NOW()';
-        $query .= ' AND DATE(publish_down) > NOW() OR publish_down = "0000-00-00 00:00:00"';
+        $query .= ' AND (DATE(publish_down) > NOW() OR publish_down = "0000-00-00 00:00:00")';
 
         //ordering type
         $query .= ' ORDER BY ' . $orderingtype;
