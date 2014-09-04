@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>htmgarcia@gmail.com</authorEmail>
     <authorUrl>www.htmgarcia.com</authorUrl>
-    <version>2.1.10</version>
+    <version>2.2.10</version>
     <description>MOD_LASTWORKS_DESCRIPTION</description>
     <files>
         <filename module="mod_lastworks">mod_lastworks.php</filename>
