@@ -45,7 +45,7 @@ echo '<div class="lastworks-container lastworks-two-columns">';
                 
                     // Intro image of the article. display image only when exist in the Article >> Images & Links >> Intro Image
                     if( $images->image_intro ){
-                        echo JHtml::_('image', Juri::base() . $images->image_intro, 'alt="' . $article->title . '"' );
+                        echo JHtml::_('image', Juri::base() . $images->image_intro, 'alt="' . htmlspecialchars($article->title) . '"' );
                     }
                     
                     // Intro Text of the article

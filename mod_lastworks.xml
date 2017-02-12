@@ -10,9 +10,7 @@
     <version>2.4.4</version>
     <description>
         <![CDATA[
-        Last Works. Show your articles as you wants.
-        Add your own Alternative Layouts inside: <em>templates/yourtemplate/html/mod_lastworks/</em> and choose it editing the module in <b>Alternative Layout</b> param.  <br />
-        Info and support: <a href="https://joomlatemplat.es/" target='_blank'>joomlatemplat.es</a>
+        Last Works. Show your articles as you wants. Info and support: <a href="https://joomlatemplat.es/" target='_blank'>joomlatemplat.es</a>
         ]]>
     </description>
     <files>
@@ -44,7 +42,7 @@
                     <option value="modified">MOD_LASTWORKS_BY_MODIFIED_DATE</option>
                     <option value="ordering">MOD_LASTWORKS_BY_ORDER</option>
                 </field>
-                <field name="vgordering" type="list" default="ASC" label="MOD_LASTWORKS_ORDERING" description="MOD_LASTWORKS_ORDERING_DESC">
+                <field name="vgordering" type="list" default="DESC" label="MOD_LASTWORKS_ORDERING" description="MOD_LASTWORKS_ORDERING_DESC">
                     <option value="ASC">MOD_LASTWORKS_ASC</option>
                     <option value="DESC">MOD_LASTWORKS_DESC</option>
                 </field>
@@ -54,7 +52,7 @@
                     first="1" 
                     last="99"
                     step="1"
-                    default="6"
+                    default="12"
                     label="MOD_LASTWORKS_NUMBER_ARTICLES_SHOW"
                     description="MOD_LASTWORKS_NUMBER_ARTICLES_SHOW_DESC" />
                 <field
