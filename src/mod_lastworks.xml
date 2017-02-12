@@ -9,10 +9,9 @@
     <authorUrl>www.joomlatemplat.es</authorUrl>
     <version>2.5</version>
     <description>
-        <![CDATA[
-        Last Works. Show your articles as you wants. Info and support: <a href="https://joomlatemplat.es/joomla-extensions/37-last-works" target='_blank'>joomlatemplat.es</a>
-        ]]>
+        Last Works. Show your articles as you wants.
     </description>
+
     <files>
         <filename module="mod_lastworks">mod_lastworks.php</filename>
         <filename module="mod_lastworks">index.html</filename>
@@ -22,6 +21,7 @@
         <folder module="mod_lastworks">assets</folder>
         <folder module="mod_lastworks">tmpl</folder>
     </files>
+
     <languages>
         <language tag="en-GB">en-GB.mod_lastworks.ini</language>
     </languages>
@@ -74,7 +74,9 @@
             </fieldset>
         </fields>
     </config>
+
     <updateservers>
         <server type="extension" priority="1" name="Last Works Updates"><![CDATA[https://joomlatemplat.es/updates/mod_lastworks/updates.xml]]></server>
     </updateservers>
+
 </extension>
